@@ -2,7 +2,12 @@ body {
     font-family: 'Ubuntu Mono', monospace;
 }
 
-header.site-header {
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-header {
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
@@ -22,17 +27,16 @@ header.site-header {
     color: #F9FAF8
 }
 
-header a:visited {text-decoration: none; color:#F9FAF8}
-header a:link {text-decoration: none; color: #F9FAF8;}
-header a:hover {text-decoration: dashed; color:#d0fce9; text-decoration-color: #d0fce9;}
-header a:active {text-decoration: dashed; color:#d0fce9; text-decoration-color: #d0fce9;}
+.site-header a:visited {text-decoration: none; color:#F9FAF8}
+.site-header a:link {text-decoration: none; color: #F9FAF8;}
+.site-header a:hover {text-decoration: dashed; color:#d0fce9; text-decoration-color: #d0fce9;}
+.site-header a:active {text-decoration: dashed; color:#d0fce9; text-decoration-color: #d0fce9;}
 
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background: #1F2937;
-    flex-wrap: wrap;
     padding-top: 56px;
 }
 
@@ -56,12 +60,12 @@ header a:active {text-decoration: dashed; color:#d0fce9; text-decoration-color: 
 }
 
 .home {
-    background-color: #E5E7EB;
+    background-color: #5a6584;
     background-position: center;
     background-size: cover;
     background-image: url("../images/Illhorens home.jpg");
-    width: 400px;
-    height: 180px;
+    padding: 150px;
+    border: 3px solid rgb(99, 99, 109);
     border-radius: 12px;
 }
 
