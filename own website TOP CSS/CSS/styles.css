@@ -1,11 +1,20 @@
 body {
     font-family: 'Ubuntu Mono', monospace;
+    margin: 0;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+}
+
+.header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
 .left-header {
@@ -17,6 +26,8 @@ body {
 .hero-left {
     display: flex;
     flex-flow: column wrap;
+    margin-top: 56px;
+    margin-bottom: 56px;
 }
 
 .left-header h3 {
@@ -45,18 +56,23 @@ body {
     background: #1F2937;
 }
 
+.right-header ul {
+    padding: 0;
+    align-self: flex-end;
+}
+
 .right-header li {
     list-style: none;
     color: #E5E7EB;
     font-size: 18px;
-    padding-left: 16px;
+    padding-right: 16px;
     display: inline-flex;
 }
 
 .right-header a:visited {text-decoration: none; color:#F9FAF8}
 .right-header a:link {text-decoration: none; color: #F9FAF8;}
-.right-header a:hover {text-decoration: dashed; color:#d0fce9; text-decoration-color: #d0fce9;}
-.right-header a:active {text-decoration: dashed; color:#d0fce9; text-decoration-color: #d0fce9;}
+.right-header a:hover {text-decoration: dashed; color:#56f9b2; text-decoration-color: #d0fce9;}
+.right-header a:active {text-decoration: dashed; color:#5becad; text-decoration-color: #d0fce9;}
 
 
 
@@ -66,6 +82,9 @@ body {
     background-size: cover;
     background-image: url("../images/Illhorens home.jpg");
     padding: 150px;
+    padding-left: 500px;
+    margin-top: 56px;
+    margin-bottom: 56px;
     border: 3px solid rgb(99, 99, 109);
     border-radius: 12px;
 }
@@ -79,4 +98,42 @@ body {
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.achievements-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.achievement-header {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.achievements-container .body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    margin-bottom: 160px;
+}
+
+.achievements-container .achievement {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    text-align: center;
+}
+
+.achievements-container .element {
+    height: 200px;
+    width: 200px;
+    border: 6px solid #3882F6;
+    border-radius: 18px;
+}
+
+.achievement p {
+    width: 200px;
 }
