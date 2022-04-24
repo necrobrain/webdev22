@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 header.site-header {
@@ -12,11 +12,11 @@ header.site-header {
     list-style: none;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 16px;
+    padding-left: 16px;
     display: inline-flex;
 }
 
-header h3 {
+.site-header h3 {
     font-size: 24px;
     font-weight: 600;
     color: #F9FAF8
@@ -29,4 +29,49 @@ header a:active {text-decoration: dashed; color:#d0fce9; text-decoration-color: 
 
 .hero {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1F2937;
+    flex-wrap: wrap;
+    padding-top: 56px;
+}
+
+.hero-left {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.hero .main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 5px;
+}
+
+.hero .body-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px;
+    padding: 5px;
+}
+
+.home {
+    background-color: #E5E7EB;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/Illhorens home.jpg");
+    width: 400px;
+    height: 180px;
+    border-radius: 12px;
+}
+
+.sign-up {
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    width: fit-content;
+    border: 0;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
