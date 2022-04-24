@@ -4,15 +4,20 @@ body {
 
 .container {
     display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
 }
 
 .left-header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     background-color: #1F2937;
 }
 
+.hero-left {
+    display: flex;
+    flex-flow: column wrap;
+}
 
 .left-header h3 {
     font-size: 24px;
@@ -37,10 +42,7 @@ body {
 .right-header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     background: #1F2937;
-    padding-top: 56px;
 }
 
 .right-header li {
@@ -56,10 +58,6 @@ body {
 .right-header a:hover {text-decoration: dashed; color:#d0fce9; text-decoration-color: #d0fce9;}
 .right-header a:active {text-decoration: dashed; color:#d0fce9; text-decoration-color: #d0fce9;}
 
-.hero-left {
-    display: flex;
-    flex-flow: column wrap;
-}
 
 
 .home {
