@@ -121,7 +121,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 56px;
-    margin-bottom: 160px;
+    margin-bottom: 56px;
 }
 
 .achievements-container .achievement {
@@ -174,13 +174,35 @@ body {
     display: flex;
     justify-content: center;
     color: #F9FAF8;
-}
-
-.action-inside-container {
-    display: flex;
+    margin-top: 56px;
+    margin-bottom: 56px;
 }
 
 .sign-box {
-
+    display: flex;
     background-color: #3882F6;
+    border-radius: 12px;
+    padding: 40px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.sign-box .sign-up {
+    border: 2px solid white;
+    padding: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.sign-box .column {
+    margin-right: 112px;
+}
+
+.action-call {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.action-text {
+    font-weight: 300;
 }
