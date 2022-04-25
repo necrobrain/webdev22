@@ -1,0 +1,216 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.left-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    width: 30%;
+}
+
+.hero-left {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.left-header h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8
+}
+
+.left-header .main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.left-header .body-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 56px;
+    margin-bottom: 10px;
+}
+
+.right-header {
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+}
+
+.right-header ul {
+    padding: 0;
+    align-self: flex-end;
+}
+
+.right-header li {
+    list-style: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-right: 16px;
+    display: inline-flex;
+}
+
+.right-header a:visited {text-decoration: none; color:#F9FAF8}
+.right-header a:link {text-decoration: none; color: #F9FAF8;}
+.right-header a:hover {text-decoration: dashed; color:#56f9b2; text-decoration-color: #d0fce9;}
+.right-header a:active {text-decoration: dashed; color:#5becad; text-decoration-color: #d0fce9;}
+
+.home {
+    background-color: #5a6584;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/Illhorens home.jpg");
+    padding: 150px;
+    padding-left: 500px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    border: 3px solid #5858594e;
+    border-radius: 12px;
+}
+
+.sign-up {
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    width: fit-content;
+    border: none;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+}
+
+.achievements-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.achievement-header {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.achievements-container .body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.achievements-container .achievement {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    text-align: center;
+}
+
+.achievements-container .element {
+    height: 200px;
+    width: 200px;
+    border: 6px solid #3882F6;
+    border-radius: 18px;
+}
+
+.achievement p {
+    width: 200px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    align-items: center;
+    height: 380px;
+}
+
+.quote-block {
+    flex-direction: column;
+    width: 1100px;
+}
+
+.quote-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotee {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 23px;
+    text-align: right;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.sign-box {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 40px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.sign-box .sign-up {
+    border: 2px solid white;
+    padding: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.sign-box .column {
+    margin-right: 112px;
+}
+
+.action-call {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.action-text {
+    font-weight: 300;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 28px;
+}
