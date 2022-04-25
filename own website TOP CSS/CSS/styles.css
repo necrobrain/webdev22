@@ -86,7 +86,7 @@ body {
     padding-left: 500px;
     margin-top: 56px;
     margin-bottom: 56px;
-    border: 3px solid #E5E7EB;
+    border: 3px solid #5858594e;
     border-radius: 12px;
 }
 
@@ -146,12 +146,12 @@ body {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
-    height: 680px;
+    align-items: center;
+    height: 380px;
 }
 
 .quote-block {
     flex-direction: column;
-    align-items: center;
     width: 1100px;
 }
 
@@ -164,7 +164,23 @@ body {
 }
 
 .quotee {
+    color: #1F2937;
     font-weight: 900;
     font-size: 23px;
     text-align: right;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.action-inside-container {
+    display: flex;
+}
+
+.sign-box {
+
+    background-color: #3882F6;
 }
